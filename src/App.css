@@ -3,11 +3,12 @@ body {
    min-height: 100vh;
    flex-direction: column;
  }
+
  html{
    height: 100vh;
  }
 
- main {
+ .main {
    flex: 1 0 auto;
  }
 
@@ -78,4 +79,19 @@ body {
   height: auto !important;
   height: 600px;
   padding: 20px 20px 20px 20px;
+}
+
+:root {
+     — space: 1.5em 0;
+     — space: 2em 0;
+}
+.Site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.Site-content {
+    flex: 1 0 auto;
+    padding: var( — space) var( — space) 0;
+    width: 100%;
 }
