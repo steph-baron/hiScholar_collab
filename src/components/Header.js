@@ -9,8 +9,7 @@ const Header = () =>{
         <div className="nav-wrapper">
           <a href="/profile" className="brand-logo">HiScholar</a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
-            <li><a href="/sign_out">Sign out</a></li>
-            <li><a href="/forgot_password">Forgot password?</a></li>
+            <li><a href="/sign_in">Sign In</a></li>
           </ul>
        </div>
       </Navbar>
@@ -19,3 +18,5 @@ const Header = () =>{
 }
 
 export default Header;
+
+    // <li><a href="/forgot_password">Forgot password?</a></li>
